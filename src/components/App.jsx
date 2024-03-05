@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Movies } from './pages/Movies';
 import { MovieDetalist } from './pages/MovieDetails';
@@ -8,9 +8,9 @@ import { Reviews } from './pages/Reviews';
 export const App = () => {
   return (
     <div>
-      <nav>
+      {/* <nav>
         <Link to="/">Home</Link>
-      </nav>
+      </nav> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
